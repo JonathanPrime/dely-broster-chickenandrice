@@ -263,7 +263,7 @@ p {
 /*========== MENU ==========*/
 
 .menu {
-  background: url(../images/background-menu.jpg) no-repeat;
+  background: url(../images/background-menu.svg) no-repeat;
   background-size: cover;
   background-position: center;
   padding: 2rem 9% !important;
