@@ -67,7 +67,7 @@ section {
 .heading .sub-menu {
   text-align: center;
   font-family: 'BebasNeueProBold';
-  font-size: 10rem;
+  font-size: 9rem;
   margin-top: -7rem;
   color:  var(--white);
 }
@@ -85,7 +85,6 @@ p {
   margin-top: 1rem;
   cursor: pointer;
   color:  var(--palet-1);
-  border: 0.2rem solid rgba(238, 32, 40);
   background: no-repeat;
   font-size: 1.7rem;
   border-radius: 1rem;
@@ -95,6 +94,23 @@ p {
 .btn:hover {
   color: var(--white);
   background:  var(--palet-1);
+}
+
+.btn-contact {
+  display: inline-block !important;
+  margin-top: 1rem !important;
+  cursor: pointer !important; 
+  color:  var(--palet-1) !important;
+  border: 0.2rem solid rgba(238, 32, 40) !important;
+  background: no-repeat !important;
+  font-size: 1.7rem !important;
+  border-radius: 1rem !important;
+  padding: 1rem 3rem !important;
+}
+
+.btn-contact:hover {
+  color: var(--white) !important;
+  background:  var(--palet-1) !important;
 }
 
 .header {
@@ -358,8 +374,14 @@ p {
 }
 
 #customers-testimonials .item, 
+#customers-testimonials-mini .item, 
+#customers-testimonials-acom .item, 
+#customers-testimonials-fast .item, 
+#customers-testimonials-beb .item,
 #customers-testimonials-pll .item, 
-#customers-testimonials-arr .item {
+#customers-testimonials-pai .item,
+#customers-testimonials-bro .item,
+#customers-testimonials-chi .item {
   text-align: center;
   padding: 1.5rem;
   padding-top: 2rem;
@@ -372,8 +394,14 @@ p {
   transition: all 0.3s ease-in-out;
 }
 #customers-testimonials .owl-item.active.center .item,
+#customers-testimonials-mini .owl-item.active.center .item,
+#customers-testimonials-acom .owl-item.active.center .item,
+#customers-testimonials-fast .owl-item.active.center .item,
+#customers-testimonials-beb .owl-item.active.center .item,
 #customers-testimonials-pll .owl-item.active.center .item,
-#customers-testimonials-arr .owl-item.active.center .item {
+#customers-testimonials-pai .owl-item.active.center .item,
+#customers-testimonials-bro .owl-item.active.center .item,
+#customers-testimonials-chi .owl-item.active.center .item {
   opacity: 1;
   -webkit-transform: scale3d(1.0, 1.0, 1);
   transform: scale3d(1.0, 1.0, 1);
@@ -668,6 +696,7 @@ p {
   -webkit-transform: translateY(10rem);
           transform: translateY(10rem);
 }
+
 
 .blogs .box-container .box .image .icons a {
   font-size: 1.5rem;
