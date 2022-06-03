@@ -1266,5 +1266,11 @@ input.whats-input[type=text]:focus {
   .logo-desing {
     width: 14%;
   }
+  .heading .title-menu {
+    font-size: 9rem;
+  }
+  .heading .sub-menu {
+    font-size: 7rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
