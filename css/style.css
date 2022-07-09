@@ -1238,6 +1238,9 @@ input.whats-input[type=text]:focus {
   .logo-desing {
     width: 10%;
   }
+  .heading .sub-menu {
+    margin-top: -5rem;
+  }
   
 }
 
